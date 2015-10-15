@@ -1,3 +1,4 @@
+// a pure go implement for NAT-PMP
 package pmp
 
 import (
@@ -12,6 +13,7 @@ import (
 
 type Gateway string
 
+// g is the router's IP
 func NewGateway(g string) Gateway {
 	return Gateway(g)
 }
